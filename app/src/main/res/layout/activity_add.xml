@@ -1,0 +1,107 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/attributesdarkgray"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/BackButton"
+        android:layout_width="124dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="4dp"
+
+        android:layout_marginTop="4dp"
+        android:background="@drawable/buttonattributesblue"
+        android:text="@string/back"
+        android:textColor="#000000"
+        android:autofillHints=""
+        android:gravity="center"
+        android:hint="Select Date..."
+
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_weight="0"
+        android:layout_margin="25dp"
+        android:alpha="1"
+       />
+
+
+
+
+    <EditText
+
+        android:id="@+id/dateButton"
+        android:autofillHints=""
+        android:background="@drawable/buttonattributesblue"
+        android:gravity="center"
+        android:hint="Select Date..."
+        android:textColor="#090909"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:layout_margin="25dp"
+        android:alpha="1"
+
+        />
+
+    <EditText
+
+        android:id="@+id/TitleButton"
+        android:layout_centerHorizontal="true"
+        android:autofillHints=""
+        android:background="@drawable/buttonattributesblue"
+        android:gravity="center"
+        android:hint="Select Title..."
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:layout_margin="25dp"
+        android:alpha="1"
+        />
+
+    <EditText
+
+        android:id="@+id/WatchedButton"
+        android:layout_centerHorizontal="true"
+        android:autofillHints=""
+        android:background="@drawable/buttonattributesblue"
+        android:gravity="center"
+        android:hint="Select Who Watched..."
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:layout_margin="25dp"
+        android:alpha="1"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/SubmitButton"
+        android:background="@drawable/buttonattributesblue"
+        android:text="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:layout_margin="25dp"
+        android:alpha="1"
+
+        />
+
+</LinearLayout>

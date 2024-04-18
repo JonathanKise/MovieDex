@@ -1,0 +1,52 @@
+
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/attributesdarkgray"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    >
+    <TextView
+        android:id="@+id/PickedItem"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:alpha="1"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:layout_margin="25dp"
+        android:background="@drawable/buttonattributesorange"
+        />
+    <!-- CHANGE THE NAME OF THIS spinner-->
+    <Spinner
+        android:id="@+id/GoToMood"
+        android:spinnerMode="dropdown"
+        android:contentDescription="MOOD PICKER"
+        android:background="@drawable/buttonattributesorange"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".7"
+        android:text="@string/mood"
+        android:textColor="#000000"
+        android:alpha="1"
+        android:textSize="40sp"
+        android:layout_margin="25dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Random"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".7"
+        android:alpha="1"
+        android:text="Random"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:layout_margin="25dp"
+        android:background="@drawable/buttonattributesorange"
+        />
+</LinearLayout>

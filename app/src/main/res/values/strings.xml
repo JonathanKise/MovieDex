@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MovieDexV4</string>
+    <string name="back">BACK</string>
+    <string name="add">ADD</string>
+    <string name="search">SEARCH</string>
+    <string name="what_to_watch">WHAT TO WATCH</string>
+    <string name="element_text" />
+    <string name="Mood" />
+    <string name="mood">Mood</string>
+    <string name="What_to_Watch_Dropdown">dropDownMenu</string>
+    <string-array name="DropdownItems">
+        <item>Happy</item>
+        <item>Anxious</item>
+        <item>Frustrated</item>
+        <item>Bored</item>
+        <item>Overwhelmed</item>
+        <item>Peaceful</item>
+    </string-array>
+</resources>
